@@ -1,12 +1,14 @@
 #include "functions.h"
 using namespace std;
 
-const double PI = 3.14156;
+const double PI = 3.14159265;
 
 void Func::Manipulator() {
     double hours = 35.45;
     double rate = 15.00;
     double tolerance = 0.010000;
+    double radius = 12.67;
+    double height = 12.00;
 
     cout << "hours = " << hours << ", rate = " << rate
          << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
@@ -19,12 +21,26 @@ void Func::Manipulator() {
          << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
          << endl;
 
-    cout << fixed;
+    cout << fixed << showpoint;
     cout << "Fixed decimal notation: " << endl;
 
     cout << "hours = " << hours << ", rate = " << rate
          << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
          << endl;
+    cout << setprecision(2) << "setprecision(2) " << endl;
+    cout << "radius = " << radius << endl;
+    cout << "height = " << height << endl;
+    cout << "volume = " << PI * radius * height << endl;
+    cout << "PI = " << PI << endl << endl;
+
+    cout << setprecision(4) << "setprecision(4) " << endl;
+    cout << "radius = " << radius << endl;
+    cout << "height = " << height << endl;
+    cout << "volume = " << PI * radius * height << endl;
+    cout << "PI = " << PI << endl << endl;
+
+    cout << setprecision(3) << radius << ", " << setprecision(2) << height
+         << ", " << setprecision(5) << PI << endl;
 }
 
 void Func::PeekPutback() {
