@@ -9,6 +9,9 @@ void Func::Manipulator() {
     double tolerance = 0.010000;
     double radius = 12.67;
     double height = 12.00;
+    int x = 7'087'625;
+    long long y = 28'087'523'872'918;
+    double z = 47'034'612'982.68'741;
 
     cout << "hours = " << hours << ", rate = " << rate
          << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
@@ -41,6 +44,12 @@ void Func::Manipulator() {
 
     cout << setprecision(3) << radius << ", " << setprecision(2) << height
          << ", " << setprecision(5) << PI << endl;
+
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+    cout << "z = " << z << endl;
+    cout << 1'2'3'4'5'6'7'8'9'0 << endl;
+    cout << "8'404 * 3'600 = " << 8'403 * 3'600 << endl;
 }
 
 void Func::PeekPutback() {
