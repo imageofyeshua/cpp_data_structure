@@ -8,6 +8,7 @@ class Func {
         void Input();
         void ChangeCents();
         void SphereVolume();
+        void PeekPutback();
 
     private:
 };

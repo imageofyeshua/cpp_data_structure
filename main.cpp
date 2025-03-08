@@ -7,7 +7,8 @@ int main() {
     /*func.StaticCast();*/
     /*func.Input();*/
     /*func.ChangeCents();*/
-    func.SphereVolume();
+    /*func.SphereVolume();*/
+    func.PeekPutback();
 
     return 0;
 }
