@@ -1,13 +1,13 @@
+#include <cmath>
 #include <iostream>
 #include <string>
-#include <cmath>
 
-class Func
-{
-public:
-  void StaticCast();
-  void Input();
-  void ChangeCents();
+class Func {
+    public:
+        void StaticCast();
+        void Input();
+        void ChangeCents();
+        void SphereVolume();
 
-private:
+    private:
 };
