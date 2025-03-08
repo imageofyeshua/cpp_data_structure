@@ -3,6 +3,30 @@ using namespace std;
 
 const double PI = 3.14156;
 
+void Func::Manipulator() {
+    double hours = 35.45;
+    double rate = 15.00;
+    double tolerance = 0.010000;
+
+    cout << "hours = " << hours << ", rate = " << rate
+         << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
+         << endl;
+
+    cout << scientific;
+    cout << "Scientific notation: " << endl;
+
+    cout << "hours = " << hours << ", rate = " << rate
+         << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
+         << endl;
+
+    cout << fixed;
+    cout << "Fixed decimal notation: " << endl;
+
+    cout << "hours = " << hours << ", rate = " << rate
+         << ", pay = " << hours * rate << ", tolerance = " << tolerance << endl
+         << endl;
+}
+
 void Func::PeekPutback() {
     char ch;
 

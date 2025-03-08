@@ -9,6 +9,7 @@ class Func {
         void ChangeCents();
         void SphereVolume();
         void PeekPutback();
+        void Manipulator();
 
     private:
 };

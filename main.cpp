@@ -8,7 +8,8 @@ int main() {
     /*func.Input();*/
     /*func.ChangeCents();*/
     /*func.SphereVolume();*/
-    func.PeekPutback();
+    /*func.PeekPutback();*/
+    func.Manipulator();
 
     return 0;
 }
