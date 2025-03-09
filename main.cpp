@@ -10,7 +10,8 @@ int main() {
     /*io.SphereVolume();*/
     /*io.PeekPutback();*/
     /*io.Manipulator();*/
-    io.SetW();
+    /*io.SetW();*/
+    io.TicketSales();
 
     return 0;
 }
