@@ -3,6 +3,43 @@ using namespace std;
 
 const double PI = 3.14159265;
 
+void IO::StudentReport() {
+    cout << "*** Student Report Project ***" << endl;
+
+    ifstream inFile;  // input file stream variable
+    ofstream outFile; // output file stream variable
+
+    double korean, english, chinese, math, physics;
+    double average;
+
+    string firstName;
+    string lastName;
+
+    inFile.open("test.txt");
+    outFile.open("testavg.out");
+
+    outFile << fixed << showpoint;
+    outFile << setprecision(2);
+
+    cout << "Processing data" << endl;
+
+    inFile >> firstName >> lastName;
+    outFile << "Student name: " << firstName << " " << lastName << endl;
+
+    inFile >> korean >> english >> chinese >> math >> physics;
+
+    outFile << "Test scores: " << setw(6) << korean << setw(6) << english
+            << setw(6) << chinese << setw(6) << math << setw(6) << physics
+            << endl;
+
+    average = (korean + english + chinese + math + physics) / 5.0;
+
+    outFile << "Average test score: " << setw(6) << average << endl;
+
+    inFile.close();
+    outFile.close();
+}
+
 void IO::TicketSales() {
     string movieName;
     double adultTicketPrice;

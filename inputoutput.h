@@ -1,4 +1,5 @@
 #include <cmath>
+#include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <string>
@@ -13,6 +14,7 @@ class IO {
         void Manipulator();
         void SetW();
         void TicketSales();
+        void StudentReport();
 
     private:
 };

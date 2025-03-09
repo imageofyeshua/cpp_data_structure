@@ -11,7 +11,8 @@ int main() {
     /*io.PeekPutback();*/
     /*io.Manipulator();*/
     /*io.SetW();*/
-    io.TicketSales();
+    /*io.TicketSales();*/
+    io.StudentReport();
 
     return 0;
 }
