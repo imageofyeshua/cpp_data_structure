@@ -9,7 +9,8 @@ int main() {
     /*func.ChangeCents();*/
     /*func.SphereVolume();*/
     /*func.PeekPutback();*/
-    func.Manipulator();
+    /*func.Manipulator();*/
+    func.SetW();
 
     return 0;
 }

@@ -3,6 +3,52 @@ using namespace std;
 
 const double PI = 3.14159265;
 
+void Func::SetW() {
+    int miles = 245;
+    int speed = 55;
+    double hours = 35.45;
+    double error = 3.7654;
+    string name = "Jessica";
+    double gpa = 3.75;
+    int scholarship = 7850;
+
+    cout << "123456789012345678901234567890" << endl;
+    cout << fixed << showpoint << setprecision(2);
+
+    cout << setw(10) << name << setw(7) << gpa << setw(8) << scholarship
+         << endl;
+
+    cout << setfill('*');
+    cout << setw(10) << name << setw(7) << gpa << setw(8) << scholarship
+         << endl;
+
+    cout << setw(10) << name << setfill('#') << setw(7) << gpa << setw(8)
+         << scholarship << endl;
+
+    cout << setw(10) << setfill('@') << name << setw(7) << setfill('#') << gpa
+         << setw(8) << setfill('^') << scholarship << endl;
+
+    cout << right;
+    cout << setfill(' ');
+    cout << setw(10) << name << setw(7) << gpa << setw(8) << scholarship
+         << endl;
+
+    cout << left;
+    cout << setfill(' ');
+    cout << setw(10) << name << setw(7) << gpa << setw(8) << scholarship
+         << endl;
+    /*
+    cout << setw(5) << miles << endl;
+    cout << setprecision(2);
+    cout << setw(5) << miles << setw(5) << speed << setw(6) << hours << setw(7)
+         << error << endl
+         << endl;
+    cout << setw(5) << speed << setw(5) << miles << setw(4) << hours << setw(7)
+         << error << endl
+         << endl;
+    */
+}
+
 void Func::Manipulator() {
     double hours = 35.45;
     double rate = 15.00;

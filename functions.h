@@ -11,6 +11,7 @@ class Func {
         void SphereVolume();
         void PeekPutback();
         void Manipulator();
+        void SetW();
 
     private:
 };
