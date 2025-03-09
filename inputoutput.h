@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-class Func {
+class IO {
     public:
         void StaticCast();
         void Input();
@@ -12,6 +12,7 @@ class Func {
         void PeekPutback();
         void Manipulator();
         void SetW();
+        void TicketSales();
 
     private:
 };

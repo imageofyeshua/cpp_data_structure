@@ -1,16 +1,16 @@
-#include "functions.h"
+#include "inputoutput.h"
 
 using namespace std;
 
 int main() {
-    Func func;
-    /*func.StaticCast();*/
-    /*func.Input();*/
-    /*func.ChangeCents();*/
-    /*func.SphereVolume();*/
-    /*func.PeekPutback();*/
-    /*func.Manipulator();*/
-    func.SetW();
+    IO io;
+    /*io.StaticCast();*/
+    /*io.Input();*/
+    /*io.ChangeCents();*/
+    /*io.SphereVolume();*/
+    /*io.PeekPutback();*/
+    /*io.Manipulator();*/
+    io.SetW();
 
     return 0;
 }

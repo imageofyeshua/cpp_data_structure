@@ -1,9 +1,11 @@
-#include "functions.h"
+#include "inputoutput.h"
 using namespace std;
 
 const double PI = 3.14159265;
 
-void Func::SetW() {
+void IO::TicketSales() {}
+
+void IO::SetW() {
     int miles = 245;
     int speed = 55;
     double hours = 35.45;
@@ -49,7 +51,7 @@ void Func::SetW() {
     */
 }
 
-void Func::Manipulator() {
+void IO::Manipulator() {
     double hours = 35.45;
     double rate = 15.00;
     double tolerance = 0.010000;
@@ -98,7 +100,7 @@ void Func::Manipulator() {
     cout << "8'404 * 3'600 = " << 8'403 * 3'600 << endl;
 }
 
-void Func::PeekPutback() {
+void IO::PeekPutback() {
     char ch;
 
     cout << "Enter a string: ";
@@ -121,7 +123,7 @@ void Func::PeekPutback() {
          << "ch = " << ch << endl;
 }
 
-void Func::SphereVolume() {
+void IO::SphereVolume() {
     double sphereRadius;
     double sphereVolume;
     double point1X, point1Y;
@@ -149,7 +151,7 @@ void Func::SphereVolume() {
          << endl;
 }
 
-void Func::ChangeCents() {
+void IO::ChangeCents() {
     const int HALF_DOLLAR = 50;
     const int QUARTER = 25;
     const int DIME = 10;
@@ -175,7 +177,7 @@ void Func::ChangeCents() {
     cout << "The number of pennies to be returned is : " << change << endl;
 }
 
-void Func::StaticCast() {
+void IO::StaticCast() {
     cout << "static_cast<int>(7.9) = " << static_cast<int>(7.9) << endl;
     cout << "static_cast<int>(3.3) = " << static_cast<int>(3.3) << endl;
     cout << "static_cast<double>(25) = " << static_cast<double>(25) << endl;
@@ -187,7 +189,7 @@ void Func::StaticCast() {
          << endl;
 }
 
-void Func::Input() {
+void IO::Input() {
     string firstName;
     string lastName;
     int age;
