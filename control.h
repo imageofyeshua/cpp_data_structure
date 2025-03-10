@@ -1,4 +1,6 @@
 #include <cmath>
+#include <cstdlib>
+#include <ctime>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -9,6 +11,7 @@ class Control {
         void Billing();
         void While();
         void TelephoneDigits();
+        void NumberGuessing();
 
     private:
 };

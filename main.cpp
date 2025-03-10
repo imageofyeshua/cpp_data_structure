@@ -8,7 +8,8 @@
 
 int main() {
     Control con;
-    con.TelephoneDigits();
+    con.NumberGuessing();
+    /*con.TelephoneDigits();*/
     /*con.While();*/
     /*con.Billing();*/
     /*IO io;*/
