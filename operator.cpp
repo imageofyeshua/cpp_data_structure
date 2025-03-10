@@ -26,6 +26,19 @@ int Operator::BitShift() {
     cout << "c = " << bitset<8>(c) << " : " << c << endl;
     cout << "d = " << bitset<8>(d) << " : " << d << endl;
     cout << "e = " << bitset<8>(e) << " : " << e << endl;
+    cout << endl;
+
+    int f = 12;
+    int g = f >> 1;
+    int h = f << 1;
+    /*int i = a >> -1;*/
+    /*int j = a << 32;*/
+
+    cout << "f = " << bitset<8>(f) << " : " << f << endl;
+    cout << "g = " << bitset<8>(g) << " : " << g << endl;
+    cout << "h = " << bitset<8>(h) << " : " << h << endl;
+    /*cout << "i = " << bitset<8>(i) << " : " << i << endl;*/
+    /*cout << "j = " << bitset<8>(j) << " : " << j << endl;*/
 
     return 0;
 }
