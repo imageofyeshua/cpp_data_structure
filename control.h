@@ -12,6 +12,7 @@ class Control {
         void While();
         void TelephoneDigits();
         void NumberGuessing();
+        int StudentReport();
 
     private:
 };

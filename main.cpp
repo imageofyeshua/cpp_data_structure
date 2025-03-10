@@ -3,7 +3,8 @@
 
 int main() {
     Control con;
-    con.NumberGuessing();
+    con.StudentReport();
+    /*con.NumberGuessing();*/
     /*con.TelephoneDigits();*/
     /*con.While();*/
     /*con.Billing();*/
