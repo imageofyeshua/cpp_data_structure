@@ -8,6 +8,7 @@ class Control {
     public:
         void Billing();
         void While();
+        void TelephoneDigits();
 
     private:
 };

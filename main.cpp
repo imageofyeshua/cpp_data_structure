@@ -8,7 +8,8 @@
 
 int main() {
     Control con;
-    con.While();
+    con.TelephoneDigits();
+    /*con.While();*/
     /*con.Billing();*/
     /*IO io;*/
     /*io.StaticCast();*/
