@@ -1,9 +1,15 @@
+#include "control.h"
 #include "inputoutput.h"
-
-using namespace std;
+#include <cmath>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <string>
 
 int main() {
-    IO io;
+    Control con;
+    con.Billing();
+    /*IO io;*/
     /*io.StaticCast();*/
     /*io.Input();*/
     /*io.ChangeCents();*/
@@ -12,7 +18,7 @@ int main() {
     /*io.Manipulator();*/
     /*io.SetW();*/
     /*io.TicketSales();*/
-    io.StudentReport();
+    /*io.StudentReport();*/
 
     return 0;
 }

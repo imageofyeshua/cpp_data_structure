@@ -1,9 +1,3 @@
-#include <cmath>
-#include <fstream>
-#include <iomanip>
-#include <iostream>
-#include <string>
-
 class IO {
     public:
         void StaticCast();
