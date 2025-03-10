@@ -8,7 +8,8 @@
 
 int main() {
     Control con;
-    con.Billing();
+    con.While();
+    /*con.Billing();*/
     /*IO io;*/
     /*io.StaticCast();*/
     /*io.Input();*/

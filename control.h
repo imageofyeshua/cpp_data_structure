@@ -7,6 +7,7 @@
 class Control {
     public:
         void Billing();
+        void While();
 
     private:
 };

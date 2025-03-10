@@ -2,6 +2,26 @@
 
 using namespace std;
 
+void Control::While() {
+    int calBurnedInADay;
+    int calBurnedInAWeek;
+    int day;
+
+    day = 1;
+    calBurnedInAWeek = 0;
+
+    while (day <= 7) {
+        cout << "Enter calories burned day " << day << ": ";
+        cin >> calBurnedInADay;
+        cout << endl;
+
+        calBurnedInAWeek += calBurnedInADay;
+        day += 1;
+    }
+    cout << "Average number of calories burned each day: "
+         << calBurnedInAWeek / 7 << endl;
+}
+
 void Control::Billing() {
     // Residential Customers
     const double RES_BILL_PROC_FEES = 4.50;
