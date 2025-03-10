@@ -1,10 +1,5 @@
 #include "control.h"
 #include "inputoutput.h"
-#include <cmath>
-#include <fstream>
-#include <iomanip>
-#include <iostream>
-#include <string>
 
 int main() {
     Control con;
